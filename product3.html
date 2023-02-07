@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<nav lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/a30dce942a.js" crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+        <!-- navbar start -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light position-fixed top-0 start-0 w-100">
+            <div class="container">
+                <a class="navbar-brand d-lg-none" href="#">ALISIA</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse p-2 flex-column" id="navbarContent">
+                    <div class="d-flex justify-content-center justify-content-lg-between flex-column flex-lg-row w-100">
+                        <form action="" class="d-flex">
+                            <input type="search" placeholder="Search" class="form-control me-2">
+                            <button class="btn btn-outline-dark" type="submit">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </form>
+                        <a class="navbar-brand d-none d-lg-block" href="#">ALISIA</a>
+                        <ul class="navbar-nav">
+                            <li class="nav-item d-flex align-items-center">
+                                <a href="#" class="nav-link mx-2">
+                                    <i class="fa-solid fa-user"></i> My Account
+                                </a>
+                            </li>
+                            <li class="nav-item d-flex align-items-center">
+                                <a href="#" class="nav-link mx-2">
+                                    <i class="fa-solid fa-shopping-bag"></i> Cart
+                                </a>
+                                <span class="badge rounded-pill bg-secondary">0</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="d-block w-100">
+                        <ul class="navbar-nav d-flex justify-content-center align-items-center pt-3">
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="#">
+                                    Clothing
+                                </a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="#">
+                                    Accessories
+                                </a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="#">
+                                    About
+                                </a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="#">
+                                    Blog
+                                </a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link" href="#">
+                                    Contact
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- navbar end -->
+
+
+        <!-- latest start -->
+        <div class="container">
+            <div class="row py-5 ">
+                <div class="col-12 col-lg-6">
+                    <img src="./img/latest/img3.jpeg" class="m-1 w-100 sliderMainImage" data-bs-toggle="modal"
+                        data-bs-target="#imageModal">
+                    <div>
+                        <img src="./img/latest/img3.jpeg" width="60" class="m-1 sliderThumb">
+                        <img src="./img/latest/img3.5.jpeg" width="60" class="m-1 sliderThumb">
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <h2 id="productName">
+                        Clara Paisley Pink Scrunchie With Material Bow
+                    </h2>
+                    <small class="text-muted">
+                        <a href="#"><i class="fa-solid fa-share-nodes"></i></a>
+                        Share  Code: 00003
+                    </small>
+                    <h4 class="my-4">
+                        USD
+                        <span id="price">15</span>
+                        $
+                    </h4>
+                    <label for="selectSize" class="text-muted">Size</label>
+                    <select name="selectSize" id="size" class="form-select">
+                        <option selected>2XS</option>
+                        <option value="1">XS</option>
+                        <option value="2">S</option>
+                        <option value="3">M</option>
+                        <option value="4">L</option>
+                        <option value="5">XL</option>
+                    </select>
+                    <div class="d-grid my-4">
+                        <button class="btn btn-lg btn-dark" type="submit" id="bagBtn">Add To Bag</button>
+                    </div>
+                    <div class="accordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <strong>Description</strong>
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne">
+                                <div class="accordion-body">Style an up-do with this paisley print scurnchie, complete
+                                    with a fabric bow.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <strong>Availability In Store</strong>
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo">
+                                <div class="accordion-body">
+                                    <strong>Available</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <strong>Delivery And Return</strong>
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree">
+                                <div class="accordion-body">
+                                    <strong>Click & Collect</strong> <br>
+                                     2-4 working days £2 <br> <br>
+                                    <strong>UK Standard Delivery</strong> <br>
+                                     2-3 working days (Please add an additional delivery day for Northern Ireland,
+                                    Highlands and Channel Islands) £3.95 <br> <br>
+                                    <strong>UK Next Working Day</strong> <br>
+                                    Order by 3:30pm weekdays (Excludes NI, Highlands and Channel Islands)
+                                    £5.95 <br> <br>
+                                    <strong>UK Saturday Delivery</strong> <br>
+                                    Order by 3.30pm Fridays (Excludes NI, Highlands and Channel Islands)
+                                    £6.95 <br> <br>
+                                    <strong>Delivery & Returns information</strong> <br>
+                                    FREE International Shipping on orders over £50 (excludes furniture) • Delivery from
+                                    the UK to the European Union may take up to 6 weeks due to new customs processes •
+                                    FREE 30 day returns for UK orders, some product exclusions apply. For more
+                                    information, see our Returns Policy.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    <strong>Size And Fit</strong>
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour">
+                                <div class="accordion-body">
+                                    <strong>Features </strong><br>
+                                    Style: Scrunchie <br>
+                                    Finish: Ruched <br>
+                                    <br />
+                                   <strong> Dimensions </strong><br>
+                                    Width: 1.5 cm <br>
+                                    Material & Care <br>
+                                    Glass, Acrylic, Zinc, Iron
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h2 class="display-6 py-5 text-center">You May Also Like</h2>
+            <div class="d-flex justify-content-between align-items-center flex-column flex-lg-row my-5">
+                <div class="card m-2">
+                    <a href="./product.html"></a>
+                    <img src="./img/latest/img1.jpeg" alt="Product" class="card-img-top" height="300">
+                    <div class="card-body">
+                        <p class="card-text fw-bold">
+                            Knotted Headband
+                        </p>
+                        <small class="text-secondary">
+                            GBP 29.50£
+                        </small>
+                    </div>
+                </div>
+                <div class="card m-2">
+                    <a href="./product.html">
+                        <img src="./img/latest/img2.jpeg" class="card-img-top" height="300" alt="Product">
+                    </a>
+                    <div class="card-body">
+                        <p class="card-text fw-bold">
+                            Faux Pearl
+                        </p>
+                        <small class="text-secondary">
+                            GBP 15£
+                        </small>
+                    </div>
+                </div>
+                <div class="card m-2">
+                    <a href="./product.html">
+                        <img src="./img/latest/img5.jpeg" class="card-img-top" height="300" alt="Product">
+                    </a>
+                    <div class="card-body">
+                        <p class="card-text fw-bold">
+                            Leopard Print
+                        </p>
+                        <small class="text-secondary">
+                            GBP 25£
+                        </small>
+                    </div>
+                </div>
+                <div class="card m-2">
+                    <a href="./product.html">
+                        <img src="./img/latest/img8.jpeg" class="card-img-top" height="300" alt="Product">
+                    </a>
+                    <div class="card-body">
+                        <p class="card-text fw-bold">
+                            Straw Tote
+                        </p>
+                        <small class="text-secondary">
+                            GBP 46£
+                        </small>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+            <footer class="d-flex justify-content-between my-5 text-start flex-wrap">
+                <ul class="nav flex-column">
+                    <li class="fw-bold nav-item text-dark">
+                        <a href="#" class="nav-link text-dark">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-muted">Clothing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-muted">Shoes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-muted">Accessories</a>
+                    </li>
+                </ul>
+                <ul class="nav flex-column">
+                    <li class="fw-bold nav-item text-dark">
+                        <a href="#" class="nav-link text-dark">Help</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-muted">Shopping Guide</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-muted">Product Care</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-muted">Contact Us</a>
+                    </li>
+                </ul>
+                <ul class="nav flex-column">
+                    <li class="fw-bold nav-item text-dark">
+                        <a href="#" class="nav-link text-dark">Content</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-muted">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-muted">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-muted">Career</a>
+                    </li>
+                </ul>
+                <ul class="nav flex-column">
+                    <li class="fw-bold nav-item text-dark">
+                        <a href="#" class="nav-link text-dark">Terms & Condition</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-muted">Legal Notice</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-muted">Terms Of Use</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-muted">Privacy Policy</a>
+                    </li>
+                </ul>
+            </footer>
+
+
+
+
+
+        </div>
+
+
+        <!-- JavaScript Bundle with Popper -->
+        <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+            </script>
+
+    </body>
+
+
+
+    </html>
